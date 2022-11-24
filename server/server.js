@@ -1,5 +1,3 @@
-import mongoose from "mongoose";
-
 import app from "./app.js";
 import connectToDB from "./configs/db.js";
 
