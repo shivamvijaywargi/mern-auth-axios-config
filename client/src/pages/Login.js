@@ -9,7 +9,7 @@ const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const [isLoggedIn, setIsLoggedIn] = useAuth();
+  const [_isLoggedIn, setIsLoggedIn] = useAuth();
 
   const navigate = useNavigate();
 

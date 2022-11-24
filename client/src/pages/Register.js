@@ -10,7 +10,7 @@ const Register = () => {
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
 
-  const [isLoggedIn, setIsLoggedIn] = useAuth();
+  const [_isLoggedIn, setIsLoggedIn] = useAuth();
 
   const navigate = useNavigate();
 
