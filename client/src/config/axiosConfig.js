@@ -2,7 +2,8 @@ import axios from "axios";
 
 const axiosClient = axios.create();
 
-axiosClient.defaults.baseURL = "http://localhost:3001/api/v1/user";
+axiosClient.defaults.baseURL =
+  "https://mern-auth-svj.up.railway.app//api/v1/user";
 
 axiosClient.defaults.headers = {
   "Content-Type": "application/json",

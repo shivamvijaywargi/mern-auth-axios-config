@@ -8,7 +8,7 @@ dotenv.config();
 const app = express();
 
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: ["http://localhost:3000", "https://mern-auth-svj.up.railway.app/"],
   optionsSuccessStatus: 200,
   credentials: true,
 };
